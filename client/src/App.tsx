@@ -4,7 +4,7 @@ import AddTodo from "./components/AddTodo";
 import { CheckCircleFillIcon } from "@primer/octicons-react";
 import { useState } from "react";
 
-export const ENDPOINT = "http://localhost:3000";
+export const ENDPOINT = "https://go-fiber-todo.onrender.com";
 
 const fetcher = (url: string) =>
   fetch(`${ENDPOINT}/${url}`).then((r) => r.json());
